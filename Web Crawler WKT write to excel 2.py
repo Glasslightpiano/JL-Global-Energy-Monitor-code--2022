@@ -1,4 +1,4 @@
-# 比起版本一更加簡約
+# 二版更加簡約
 # 以pop(0)直接選出List的第一個項目，省去一段for和if
 
 import pandas as pd
