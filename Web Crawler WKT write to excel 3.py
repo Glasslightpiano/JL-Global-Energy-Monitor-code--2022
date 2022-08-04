@@ -84,7 +84,7 @@ while row < 5:  # row < 任意數字，但要小於資料總筆數
             ws.cell(row, 4).value = resultIII[6:]  # 寫入excel檔D欄
             row += 1  # 換列
 
-        else:
+        else:  # 不符Global Energy Monitor原始碼規則
             resultIV = (URL[:5] + ":Not in the rule. Please check!")
             print(resultIV)
             ws.cell(row, 4).value = resultIV[6:]  # 寫入excel檔D欄
