@@ -1,4 +1,4 @@
-# 僅使用openpyxl套件完成在相同excel檔讀寫
+# 三版僅使用openpyxl套件完成在相同excel檔讀寫
 # pandas套件似乎只能寫入list (待確認)
 # 加強命名辨識度
 # 長句換行
