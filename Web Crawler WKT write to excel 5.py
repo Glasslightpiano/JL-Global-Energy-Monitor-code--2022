@@ -2,7 +2,7 @@
 五版修改重點：
 一、變數命名改用駝峰式
 二、使用 wet_format 的副程式執行爬蟲的原始座標轉換成 WKT 格式
-     未使用副程式前這段相似的 code 在 Linestring 需執行一次； Multilinestring 需執行兩次
+     使用副程式前這段相似的 code 在 Linestring 需執行一次； Multilinestring 需執行兩次
 三、利用 re.split(' | '), ___ ，一次將兩個不同的 string 作長字串拆分點
 四、盡可能合併語法，大幅減少變數的使用
 五、整體語法簡化，少了十行左右
